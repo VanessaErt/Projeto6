@@ -1,0 +1,163 @@
+/* Estilo geral para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do header com imagem de fundo */
+.header-background {
+    background-image: url('assets/banner-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+  
+.header-background h1 {
+    margin: 0;
+    padding: 20px 0; 
+}
+
+/* Estilo das colunas e imagem tendencias */
+#tendencias {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    line-height: 1.6;
+    text-align: justify; 
+    margin-bottom: 40px; 
+}
+
+.titulo-tendencias {
+    column-span: all;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+#tendencias img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+}
+
+/* Estilo das pagination */  
+#pagination {
+    max-width: 800px; 
+    margin: 0 auto;
+    text-align: left; 
+    padding: 20px; 
+}
+
+.titulo h1 {
+    font-size: 30px; 
+    line-height: 1; 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+}
+
+.imagens {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px;
+    padding-top: 20px; 
+}
+
+.imagens a {
+    display: inline-block;
+}
+
+.imagens img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px; 
+    transition: transform 0.3s; 
+}
+
+.imagens img:hover {
+    transform: scale(1.1); 
+}
+
+/* Estilos para o título */
+.titulo-moda h1 {
+    font-size: 30px;
+    background: linear-gradient(to right, black 50%, #733D29 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 20px;
+}
+
+.texto-moda {
+    text-align: left; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.leia-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F27405;
+    border: 1px solid #F27405;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.leia-mais:hover {
+    background-color: #F28705;
+    border-color: #F28705;
+}
+
+/* Estilos para img */
+.img-moda {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 60% 100%;
+    -webkit-box-reflect: right;
+}
+.reflection-container {
+    display: flex;
+}
+.img-moda-reflected {
+    transform: scaleX(-1);
+}
+
+.full-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #733D29;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}  
